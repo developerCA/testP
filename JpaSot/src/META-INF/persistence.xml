@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="JpaSot">
+		<class>model.Producto</class>
+		<class>model.Tarea</class>
+		<class>model.DetalleNotaPedido</class>
+		<class>model.TareaDetalleNotaPedido</class>
+		<class>model.Calibracion</class>
+		<class>model.Catalogo</class>
+		<class>model.Instrumento</class>
+		<class>model.Categoria</class>
+		<class>model.CostoServico</class>
+		<class>model.Seguimiento</class>
+		<class>model.Empresa</class>
+		<class>model.Secuencia</class>
+		<class>model.SecuenciaOrden</class>
+		<class>model.Vendedor</class>
+	</persistence-unit>
+</persistence>
